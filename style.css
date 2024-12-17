@@ -1,0 +1,48 @@
+body {
+    background-color: hsl(212, 45%, 89%);
+    font-size: 15px;
+    font-weight: 400;
+}
+
+html,body {
+    height:100%;
+    font-family: Outfit;
+}
+
+h2, p {
+    margin: 10px;
+    padding: 10px;
+}
+
+h2 {
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+p {
+color: hsl(216, 15%, 48%);
+}
+
+.container {
+    display: grid;
+    align-content: center;
+    justify-content: center;
+}
+
+
+.qr-box {
+    
+    background-color: white;
+    padding: 15px;
+    margin: 15px;
+    max-height: 600px;
+    max-width: 300px;
+    border-radius: 5%;
+    text-align: center;
+}
+
+.qr-img {
+    max-width: 100%; 
+    height: auto;
+    border-radius: 4%;
+}
