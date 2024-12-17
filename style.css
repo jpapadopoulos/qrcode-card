@@ -2,6 +2,9 @@ body {
     background-color: hsl(212, 45%, 89%);
     font-size: 15px;
     font-weight: 400;
+    display: grid;
+    align-content: center;
+    justify-content: center;
 }
 
 html,body {
@@ -23,11 +26,11 @@ p {
 color: hsl(216, 15%, 48%);
 }
 
-.container {
+/* .container {
     display: grid;
     align-content: center;
     justify-content: center;
-}
+} */
 
 
 .qr-box {
