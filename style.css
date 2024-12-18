@@ -33,7 +33,7 @@ p {
   color: hsl(216, 15%, 48%);
   line-height: 140%;
   letter-spacing: 0.2px;
-  padding: 0 8px;
+  /* padding: 0 8px; */
 }
 
 h2 {
@@ -46,13 +46,14 @@ h2 {
 }
 
 .qr-box {
+    box-sizing: border-box;
   background-color: white;
   padding: 16px 16px 40px 16px;
   /* margin: 15px; */
   max-height: 500px;
   max-width: 320px;
   border-radius: 20px;
-  filter: drop-shadow(0 5px 5px);
+  filter: drop-shadow(0 5px 5px rgba(0,0,0, 25%));
 }
 
 .qr-img {
